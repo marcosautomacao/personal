@@ -1,0 +1,166 @@
+<!--<!DOCTYPE html>
+<HTML>
+    <head>
+            <link rel="stylesheet" type="text/css" href="file:///C:/Users/Marcos/Desktop/Curriculo/formato_curriculo.css">
+            <link rel="stylesheet" type="text/css" href="file:///C:/Users/Marcos/Desktop/Curriculo/timeline.css">
+            <link rel="stylesheet" type="text/css" href="file:///C:/Users/Marcos/Desktop/Curriculo/node_modules/bootstrap/dist/css/bootstrap.min.css">
+            <script type="text/javascript" src=""></script>
+    
+    </head>
+<style>
+
+</style>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/timeline.css">
+
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+<style>
+       * {text-align:  justify}
+       .H2 {font-size:20px} 
+       p {font-size: 13px} 
+       .H3 {font-size: 13px}
+       span {text-decoration: underline;
+             font-weight: bold;
+             display: flex;
+             text-align: center 
+    }
+      
+</style>
+<main>
+  <div id="corpo">
+   <div><h2 class="H2">Resumo profissional</h2><p>Graduado em Engenharia de Controle e Automação pela PUC-Minas, em 2017. Durante minha trajetória profissional, atuei em diversos segmentos da engenharia. Começando com automação industrial, na programação de controladores, redes industriais, sistemas de supervisão e TI. Hoje, mais focado na área de desenvolvimento de software e desenvolvimento WEB, estou cursando Engenharia de Software na PUC-Minas e trabalhando com projetos pessoais, onde divulgado através do meu site  ........  e no GitHub.</b></p>        
+    </div>
+   <div><h2 class="H2">Informações adicionais</h2> <p>Tenho disponibilidade total para viagens e mudanças. Busco contratação tanto na modalidade pessoa física como pessoa jurídica. </p>       
+    </div>
+     <div><h2 class="H2">Formação</h2>  
+         <h3 class="H3">Engenharia de Controle e Automação - Pucminas - 2017</h3>
+         <p></p>
+         <h3 class="H3">Engenharia de Software - Pucminas - 2020</h3>
+         <p></p>      
+     </div>
+     <div>
+<script>
+    var lista=document.getElementsByTagName("ul");
+    for(var i=0;
+    i<lista.length;
+    i++){if(lista[i].style.getPropertyValue('list-style')=="none")console.log(i)};        
+    console.log(i)
+    </script>
+
+         <h2 class="H2">Habilidades</h2>
+             <ul style="display: inline-block; list-style: none; vertical-align: top;">
+                 <li><span>Programação de </br>CLP's e IHM'S</span>
+                    <ul>
+                      <li>Rockwell</li>
+                      <li>Siemens</li>
+                      <li>Allen Bradley</li>
+                    </ul>
+                 </li>
+                 <li><span>Redes Industriais</span>
+                        <ul>
+                          <li>Modbus</li>
+                          <li>Profibus</li>
+                          <li>Fieldbus</li>
+                          <li>Ethernet</li>
+                          <li>Wirelles e radio</li>
+                        </ul>
+                     </li>
+             </ul>
+             <ul style="display: inline-block; list-style: none; vertical-align: top; ">
+                    <li><span>Desenvolvimento de Sistemas</span>
+                       <ul>
+                         <li>Labview</li>
+                         <li>Elipse</li>
+                         <li>Matlab</li>
+                       </ul>
+                    </li>    
+                    <li><span>Desenvolvimento WEB Full Stack</span>
+                       <ul>
+                         <li>HTML, CSS e Javascript</li>
+                         <li>Node.Js</li>
+                         <li>Ajax</li>
+                         <li>Bootstrap</li>
+                         <li>JQuerry</li>
+                         <li>Git</li>
+                         <li>Banco de dados</li>
+                       </ul>
+                    </li>
+                </ul>
+                <ul style="display: inline-block; list-style: none; vertical-align: top;">
+                        <li><span>Eletronica e embarcados</span> 
+                           <ul>
+                             <li>Raspberry</li>
+                             <li>Arduino</li>
+                             <li>HC08</li>
+                             <li>Lora</li>
+                             <li>Zigbee</li>
+                           </ul>
+                        </li>
+                        <li><span>Outras Competencias</span>
+                                <ul>
+                                  <li>Processos industriais</li>
+                                  <li>Metodologias de<br/>desenvolvimento agil</li>
+                                </ul>                                  
+                        </li>                                               
+                       </ul>   
+      </div>
+     <div>
+         <h2 class="H2">Historico Profissional</h2>        
+      <div class="page__demo main-container page__container timeline page sidebar" id="sidebar">
+       <div class="timeline__group timeline__box">
+         <div class="timeline__date">
+           <span class="timeline__month">Feb<br>ago</span>
+         </div>
+         <div class="timeline__post">
+           <div class="timeline__content">
+             <p>BM Serviços de Engenharia LTDA<br>A empresa foi criada com o objetivo de desenvolver um sistema de gestão de fábrica para a aquisição automatizada (hardware) e gerenciamento (software) de dados de produção de fábrica. O projeto conta com hardwares para coleta, e transmissão de dados via Wirelles para rede industrial, projeto de servidores, banco de dados, softwares de supervisão e gestão de dados. O software foi desenvolvido em Labview e distribuído para a engenharia e coordenação do setor. Integra ferramentas de melhoria continua dos processos, como o OEE. </p>
+           </div>
+          </div>
+       </div>
+       <div class="timeline__group timeline__box">
+         <div class="timeline__date">
+           <span class="timeline__month">Sept<br></span>
+         </div>
+         <div class="timeline__post">
+           <div class="timeline__content">
+             <p>Belgo Bekaert<br>Responsável pelo desenvolvimento de um sistema automatizado de aquisição de dados de fábrica, integrado com a filosofia OEE (indicador de eficiência utilizado pela empresa), com transmissão sem fio e rede Modbus. O sistema foi desenvolvido na plataforma da National Intruments LabView, integrado com banco de dados MySQL e PLC’s Thinget . Elaboração do projeto e implementação em 13 linhas de produção da empresa. Através dos resultados obtidos pelo sistema, participou de trabalhos de análise de viabilidade econômica de investimentos, dimensionamento de equipamentos e pessoal, estudo de taxa de ocupação de pessoal (carga de trabalho), estudo de eficiência e tempo efetivo de produção de equipamentos, fluxo e movimentação de materiais (logística), layout, levantamento de estudo de dados para suporte e decisões, organização de produção.</p>
+           </div>
+         </div>
+       </div>
+       <div class="timeline__group timeline__box">
+         <div class="timeline__date">
+         <span class="timeline__month">Jul<br></span>
+         </div>
+         <div class="timeline__post">
+           <div class="timeline__content">
+             <p>GCT - Controle e Gerenciamento de Radares</p>
+           </div>
+         </div>
+       </div>
+       <div class="timeline__group timeline__box">
+         <div class="timeline__date">
+         <span class="timeline__month">Aug<br></span>
+         </div>
+         <div class="timeline__post">
+           <div class="timeline__content">
+             <p>Orteng Equipamentos e Sistemas</p>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+   </div>
+  </main>
+        <footer>
+                <% include ../partials/footer %>
+            </footer>
+</body>
+</HTML>
